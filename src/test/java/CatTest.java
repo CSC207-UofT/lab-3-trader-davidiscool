@@ -18,7 +18,7 @@ public class CatTest {
 
     @Test(timeout = 50)
     public void TestSound() {
-        assertEquals("Hahaha!", c.sound());
+        assertEquals("Meow!", c.sound());
     }
 
     @Test(timeout = 50)
@@ -40,7 +40,7 @@ public class CatTest {
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(4, c.getPrice());
+        assertEquals(3, c.getPrice());
     }
 
 }
